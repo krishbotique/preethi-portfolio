@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Preethi Rajiv - Quality Analyst, Customer Support and Digital Marketing professional.">
+
+    <meta name="keywords"
+        content="Preethi Rajiv, Quality Analyst, Customer Support, Digital Marketing, Content Analyst, Remote Jobs">
+
+    <meta name="author" content="Preethi Rajiv">
+
+    <title>Preethi Rajiv | Quality Analyst | Customer Support | Digital Marketing</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f8fc;
+            color: #202124;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* NAVBAR */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.97);
+            border-bottom: 1px solid #e5e7eb;
+            backdrop-filter: blur(10px);
+        }
+
+        nav {
+            max-width: 1150px;
+            margin: auto;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 25px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+            color: #5b4bdb;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #5b4bdb;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 88vh;
+            display: flex;
+            align-items: center;
+            background:
+                radial-gradient(circle at 85% 20%, #e7e2ff 0, transparent 25%),
+                radial-gradient(circle at 10% 80%, #e8f2ff 0, transparent 25%),
+                #ffffff;
+        }
+
+        .hero-container {
+            max-width: 1150px;
+            width: 100%;
+            margin: auto;
+            padding: 70px 25px;
+            display: grid;
+            grid-template-columns: 1.4fr 0.8fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .small-title {
+            color: #5b4bdb;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .hero h1 {
+            font-size: 54px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            color: #161616;
+        }
+
+        .hero h1 span {
+            color: #5b4bdb;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            max-width: 650px;
+            color: #5f6368;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 23px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .primary-btn {
+            background: #5b4bdb;
+            color: white;
+        }
+
+        .primary-btn:hover {
+            background: #4738bd;
+            transform: translateY(-2px);
+        }
+
+        .secondary-btn {
+            border: 1px solid #d7d9e0;
+            color: #333;
+            background: white;
+        }
+
+        .secondary-btn:hover {
+            border-color: #5b4bdb;
+            color: #5b4bdb;
+        }
+
+        .hero-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 20px 50px rgba(35, 35, 60, 0.08);
+        }
+
+        .hero-card h3 {
+            margin-bottom: 20px;
+            font-size: 21px;
+        }
+
+        .quick-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 15px 0;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .dot {
+            width: 9px;
+            height: 9px;
+            background: #5b4bdb;
+            border-radius: 50%;
+        }
+
+        /* GENERAL */
+
+        section {
+            padding: 90px 25px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-heading h2 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .section-heading p {
+            color: #6b7280;
+        }
+
+        /* ABOUT */
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .about-box {
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .about-box h3 {
+            margin-bottom: 15px;
+            font-size: 21px;
+        }
+
+        .about-box p {
+            color: #5f6368;
+        }
+
+        /* SKILLS */
+
+        .skills {
+            background: #ffffff;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .skill-card {
+            padding: 25px;
+            background: #f8f8ff;
+            border: 1px solid #e6e4fb;
+            border-radius: 13px;
+        }
+
+        .skill-card h3 {
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #30276d;
+        }
+
+        .skill-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* EXPERIENCE */
+
+        .timeline {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .experience-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.03);
+        }
+
+        .experience-card h3 {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+
+        .company {
+            color: #5b4bdb;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 18px;
+        }
+
+        .experience-card ul {
+            padding-left: 20px;
+            color: #5f6368;
+        }
+
+        .experience-card li {
+            margin-bottom: 8px;
+        }
+
+        /* PROJECTS */
+
+        .projects {
+            background: #ffffff;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .project-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 15px;
+            padding: 30px;
+            background: #fafaff;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.07);
+        }
+
+        .project-card h3 {
+            margin-bottom: 12px;
+            color: #30276d;
+        }
+
+        .project-card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        .project-link {
+            color: #5b4bdb;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        /* CERTIFICATIONS */
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .cert-card {
+            background: white;
+            padding: 25px;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+        }
+
+        .cert-card h3 {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+
+        .cert-card p {
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* EDUCATION */
+
+        .education-card {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            border: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .education-card h3 {
+            font-size: 23px;
+            margin-bottom: 8px;
+        }
+
+        .education-card p {
+            color: #666;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background: #17152a;
+            color: white;
+        }
+
+        .contact .section-heading p {
+            color: #c6c4d5;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .contact-card {
+            background: #23203d;
+            border: 1px solid #393451;
+            padding: 25px;
+            border-radius: 13px;
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact-card a {
+            color: #cfc9ff;
+            font-size: 14px;
+            word-break: break-word;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #0e0d18;
+            color: #aaa;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 850px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-description {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .buttons {
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .about-grid,
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid,
+            .cert-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 65px 20px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .hero-card {
+                padding: 25px;
+            }
+
+            .section-heading h2 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header>
+        <nav>
+            <div class="logo">Preethi Rajiv</div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-container">
+
+            <div>
+
+                <div class="small-title">
+                    QUALITY ANALYST • CUSTOMER SUPPORT • DIGITAL MARKETING
+                </div>
+
+                <h1>
+                    Hi, I'm <span>Preethi Rajiv.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A detail-oriented professional with experience in Quality Analysis,
+                    transcription, customer communication and digital marketing.
+                    Currently seeking opportunities in Customer Support, Quality Analysis,
+                    Content Operations and Digital Marketing.
+                </p>
+
+                <div class="buttons">
+
+                    <a class="btn primary-btn"
+                       href="#contact">
+                        Contact Me
+                    </a>
+
+                    <a class="btn secondary-btn"
+                       href="https://www.linkedin.com/in/preethirajthaashu/"
+                       target="_blank">
+                        LinkedIn Profile
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <h3>Professional Focus</h3>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Customer Support
+                </div>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Quality Analysis
+                </div>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Content Operations
+                </div>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Digital Marketing
+                </div>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Social Media Management
+                </div>
+
+                <div class="quick-info">
+                    <span class="dot"></span>
+                    Basic Technical Skills
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>About Me</h2>
+
+                <p>
+                    Professional background and career goals
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-box">
+
+                    <h3>Who I Am</h3>
+
+                    <p>
+                        I am a BSc graduate from PSG College of Technology with
+                        professional experience as a Quality Analyst and
+                        Transcriptionist at Josh Talks.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        My experience has helped me develop strong attention to detail,
+                        communication, quality checking, time management and
+                        problem-solving skills.
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <h3>Career Objective</h3>
+
+                    <p>
+                        I am looking for a professional opportunity where I can use
+                        my communication, analytical and digital skills while
+                        continuing to learn and grow.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        I am particularly interested in remote opportunities in
+                        Customer Support, Quality Analysis, Content Operations,
+                        Digital Marketing and related non-coding IT roles.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Skills</h2>
+
+                <p>
+                    A combination of professional, digital and technical skills
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <h3>Customer Support</h3>
+
+                    <p>
+                        Customer communication, query handling,
+                        problem solving and professional communication.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Quality Analysis</h3>
+
+                    <p>
+                        Quality checking, error identification,
+                        accuracy verification and following guidelines.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Digital Marketing</h3>
+
+                    <p>
+                        Social media management, product research,
+                        content planning and online promotion.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Content Operations</h3>
+
+                    <p>
+                        Content review, transcription, proofreading,
+                        data accuracy and attention to detail.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Technical Skills</h3>
+
+                    <p>
+                        Basic Python, C++, HTML, CSS,
+                        web development and cybersecurity fundamentals.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Professional Skills</h3>
+
+                    <p>
+                        Communication, teamwork, adaptability,
+                        time management and quick learning.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Professional Experience</h2>
+
+                <p>My professional journey</p>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="experience-card">
+
+                    <h3>Quality Analyst (Transcriptionist)</h3>
+
+                    <div class="company">
+                        Josh Talks
+                    </div>
+
+                    <div class="date">
+                        10 January 2025 – 23 July 2025 | Work From Home
+                    </div>
+
+                    <ul>
+
+                        <li>
+                            Reviewed and checked transcribed content for
+                            accuracy and quality.
+                        </li>
+
+                        <li>
+                            Identified errors and ensured content followed
+                            required quality standards.
+                        </li>
+
+                        <li>
+                            Maintained attention to detail while handling
+                            large amounts of content.
+                        </li>
+
+                        <li>
+                            Completed assigned tasks within deadlines
+                            in a remote work environment.
+                        </li>
+
+                        <li>
+                            Communicated effectively while working with
+                            remote teams and following project guidelines.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="experience-card">
+
+                    <h3>Founder / Digital Project</h3>
+
+                    <div class="company">
+                        KrishBotique
+                    </div>
+
+                    <div class="date">
+                        Online Digital Project
+                    </div>
+
+                    <ul>
+
+                        <li>
+                            Manage an online shopping and product
+                            discovery website.
+                        </li>
+
+                        <li>
+                            Research products and create useful
+                            promotional content.
+                        </li>
+
+                        <li>
+                            Manage social media and online presence.
+                        </li>
+
+                        <li>
+                            Work with affiliate product links and
+                            digital promotion.
+                        </li>
+
+                        <li>
+                            Develop practical experience in digital
+                            marketing and customer-focused content.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="projects">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Projects</h2>
+
+                <p>Practical work and digital projects</p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <div class="project-card">
+
+                    <h3>KrishBotique</h3>
+
+                    <p>
+                        An online product discovery and affiliate
+                        shopping project focused on affordable fashion,
+                        beauty, home, kitchen and lifestyle products.
+                    </p>
+
+                    <a class="project-link"
+                       href="https://krishbotique.github.io/krishbotique/"
+                       target="_blank">
+
+                        Visit Website →
+
+                    </a>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>Digital Marketing & Social Media</h3>
+
+                    <p>
+                        Practical experience in product research,
+                        social media content, online promotion,
+                        audience-focused posts and affiliate marketing.
+                    </p>
+
+                    <a class="project-link"
+                       href="https://www.instagram.com/krishdeals18/"
+                       target="_blank">
+
+                        View Instagram →
+
+                    </a>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Built and managed a responsive website using
+                        HTML and CSS, with practical experience in
+                        website structure and basic web development.
+                    </p>
+
+                    <a class="project-link"
+                       href="https://krishbotique.github.io/krishbotique/"
+                       target="_blank">
+
+                        View Project →
+
+                    </a>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>Content Quality & Transcription</h3>
+
+                    <p>
+                        Professional experience in reviewing,
+                        checking and improving transcribed content
+                        while maintaining accuracy and quality standards.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CERTIFICATIONS -->
+
+    <section id="certifications">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Certifications</h2>
+
+                <p>Professional learning and technical training</p>
+
+            </div>
+
+
+            <div class="cert-grid">
+
+
+                <div class="cert-card">
+
+                    <h3>Communication Skills</h3>
+
+                    <p>
+                        TCS iON
+                    </p>
+
+                    <p>
+                        Completed: 10 May 2023
+                    </p>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <h3>Python & Cybersecurity Bootcamp</h3>
+
+                    <p>
+                        ShapeAI
+                    </p>
+
+                    <p>
+                        Fundamentals of Python and cybersecurity.
+                    </p>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Smartknowers
+                    </p>
+
+                    <p>
+                        Completed: July 2022 – August 2022
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Education</h2>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>BSc</h3>
+
+                <p>
+                    PSG College of Technology
+                </p>
+
+                <p>
+                    Graduated in 2023
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    I'm open to suitable opportunities in Customer Support,
+                    Quality Analysis, Content Operations and Digital Marketing.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <div class="contact-card">
+
+                    <h3>Email</h3>
+
+                    <a href="mailto:PREETHI979185@GMAIL.COM">
+
+                        PREETHI979185@GMAIL.COM
+
+                    </a>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h3>Phone</h3>
+
+                    <a href="tel:+919791851935">
+
+                        +91 9791851935
+
+                    </a>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h3>LinkedIn</h3>
+
+                    <a href="https://www.linkedin.com/in/preethirajthaashu/"
+                       target="_blank">
+
+                        View LinkedIn Profile
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Preethi Rajiv. All Rights Reserved.
+        </p>
+
+        <p>
+            Quality Analyst | Customer Support | Digital Marketing
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
